@@ -1,0 +1,76 @@
+body{
+    background-color: limegreen;
+}
+.menu {
+    list-style: none;
+    padding: 0px;
+    background: rgb(108, 221, 85);
+    width: 400%;
+    max-width: 1000px;
+    margin:auto;
+    margin-top: 10px;
+    
+}
+    .menu li a{
+        text-decoration: none;
+        color:black;
+        padding: 30px; 
+        display: block;
+
+
+    }
+
+    .menu li{
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+    .menu li a:hover{ 
+        background: rgb(248, 248, 248);
+       
+
+    }
+
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    
+}
+.form_ _ title{
+    margin-top: 50px;
+    font-size: 1.7em;
+    text-align: center;
+}
+.form_ _ label, .form_ _ input{
+    display: block;
+}
+.form_ _ label{
+    width: 30%;
+}
+.form_ _ input{
+    width: 30%;
+}
+.form--file{
+    font-size: 1em;
+    margin: 10px 30px;
+    width: 100%;
+}
+.container--flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.form--submit{
+    width: 100px;
+    background: #3E2E6F;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+}
